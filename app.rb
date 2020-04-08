@@ -16,7 +16,7 @@ service = GeolocationService.new
 
 # Better if extracted to something like a Geolocation::Parameters
 location_params = {
-  vehicle: :car,
+  vehicle: :bus,
   from: {
     lat: -25.4345793,
     lon: -49.2798058
