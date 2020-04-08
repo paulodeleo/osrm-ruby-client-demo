@@ -10,9 +10,9 @@ require_relative './drivers/google_maps_driver'
 require_relative './geolocation_service'
 
 # Sample service invocations:
-service = GeolocationService.new
+# service = GeolocationService.new
 # service = GeolocationService.new(GeolocationService::DRIVERS[:osrm])
-# service = GeolocationService.new(GeolocationService::DRIVERS[:google_maps])
+service = GeolocationService.new(GeolocationService::DRIVERS[:google_maps])
 
 # Better if extracted to something like a Geolocation::Parameters
 location_params = {

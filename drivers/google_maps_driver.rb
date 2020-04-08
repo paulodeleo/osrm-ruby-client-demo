@@ -8,8 +8,7 @@ class GoogleMapsDriver
 
     # TODO: real implementation
     {
-      distance: 0,
-      duration: 0
+      distance: 0
     }
   end
 
