@@ -1,6 +1,6 @@
 class OsrmDriver
   ENDPOINT = ENV['OSRM_ENDPOINT'] #|| 'http://router.project-osrm.org'
-  ENDPOINT_TIMEOUT = 60 # In seconds
+  ENDPOINT_TIMEOUT = 0.3 # In seconds
   VALID_VEHICLES = {
     car: 'car',
     bike: 'bike', # Currently not working with demo server?
